@@ -3,8 +3,7 @@ sudo: false
 addons:
   sonarcloud:
     organization: "rahmaboukhris"
-    token:
-      secure: "e13369a1c4fb21ba40e43edc9d610d9c532b0440"
+    token: "e13369a1c4fb21ba40e43edc9d610d9c532b0440"
 
 script:
   - make clean
